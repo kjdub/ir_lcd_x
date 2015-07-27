@@ -17,7 +17,6 @@ int RECV_PIN = 3;
 IRrecv IR(RECV_PIN);
 decode_results results;
 
-
 // initialize display (RS,E,D4,D5,D6,D7)
 LiquidCrystal LCD(7,8,9,10,11,12);
 
